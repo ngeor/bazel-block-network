@@ -23,6 +23,8 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 maven_install(
     artifacts = [
         "junit:junit:4.12",
+        "io.dropwizard:dropwizard-core:2.0.27",
+        "io.dropwizard:dropwizard-testing:2.0.27",
     ],
     repositories = [
         "https://repo1.maven.org/maven2",
